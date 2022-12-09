@@ -1,5 +1,5 @@
-module SaveAnalytic
-    def self.save_search(query, session, articles)
+module SaveQuerry
+    def self.save(query, session, articles)
       return if query.nil? || query.length < 3
   
       recent_search = Analytic.new(query: query, articles: articles)
