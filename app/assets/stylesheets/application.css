@@ -3,8 +3,8 @@
 
 :root {
     --primary-color: #f7f8f7;
-    --secondary-color: #8cbf00;
-    --tertiary-color: #608202;
+    --secondary-color: #03b90c;
+    --tertiary-color: #028211;
     --color-grey: #e0e0e0;
     --default-fs: 1.6rem;
 }
@@ -81,6 +81,7 @@ ul {
 }
 
 .analytics-section__heading {
+   color: var(--secondary-color);
     margin: 3rem 0;
     font-size: 4rem;
     text-transform: capitalize;
