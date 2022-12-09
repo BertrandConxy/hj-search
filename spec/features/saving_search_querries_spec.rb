@@ -8,5 +8,4 @@ RSpec.feature "SavingSearchQuerries", type: :feature do
   scenario 'can see search input field' do
     expect(page).to have_field 'query'
   end
-
 end
