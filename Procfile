@@ -1,1 +1,1 @@
-web: rake db:migrate && rake db:seed && rails s -p $PORT -b $IP -e $RAILS_ENV -d -P tmp/pids/server.pid -C config/unicorn.rb -E production -D -p 3000 -c 2 -l   -E production -D -p 3000 -c 2 -l /tmp/unicorn.log
+web: rake db:migrate && rake db:seed && rails s -p $PORT -b $IP -e $RAILS_ENV
