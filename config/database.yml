@@ -82,6 +82,7 @@ test:
 #
 production:
   <<: *default
+  url: <%= ENV['DATABASE_URL'] %>
   database: hj_search_production
   username: hj_search
   password: <%= ENV["HJ_SEARCH_DATABASE_PASSWORD"] %>
