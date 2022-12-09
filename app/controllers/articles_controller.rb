@@ -15,7 +15,7 @@ class ArticlesController < ApplicationController
     else
       articles = Article.title_search(params[:query])
       render(partial: '/shared/home', locals: { articles: articles })
-      SaveQuerry.save(params[:query], session[:user_id], articles.length)
+      SaveQuerry.save(params[:query], session[:user_id], articles.length) # SaveQuerry is a module in app/models/concerns/save_querry.rb
     end
   end
 
