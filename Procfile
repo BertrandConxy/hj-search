@@ -1,1 +1,1 @@
-web: rake db:migrate && rake db:seed && rails s -p $PORT -b $IP
+web: rake db:migrate && rake db:seed && rails s -p $PORT
