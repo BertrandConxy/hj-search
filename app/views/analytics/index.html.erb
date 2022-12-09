@@ -8,12 +8,12 @@
     <th class='table__header'>articles</th>
     <th class='table__header'>Last occurence</th>
   </tr>
-  <% @grouped_analytics.each_with_index do |analytics, index| %>
+  <% @search_querries.each_with_index do |querry, index| %>
 <tr class='table__row'>  
-  <td class='table__data'> <%= analytics[0]  %> </td>
-  <td class='table__data'> <%= analytics[1] %> </td>
-  <td class='table__data'><%= analytics[2]  %> </td>
-  <td class='table__data'><%= analytics[3]  %> </td>
+  <td class='table__data'> <%= querry[0]  %> </td>
+  <td class='table__data'> <%= querry[1] %> </td>
+  <td class='table__data'><%= querry[2]  %> </td>
+  <td class='table__data'><%= querry[3]  %> </td>
 </tr>
   <% end %>
 </table>

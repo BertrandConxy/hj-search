@@ -1,4 +1,4 @@
-class SaveAnalytic
+module SaveAnalytic
     def self.save_search(query, session, articles)
       return if query.nil? || query.length < 3
   

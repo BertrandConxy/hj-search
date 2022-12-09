@@ -14,7 +14,6 @@ class ArticlesController < ApplicationController
       render(partial: '/shared/home', locals: { articles: [] })
     else
       articles = Article.title_search(params[:query])
-
       render(partial: '/shared/home', locals: { articles: articles })
       SaveAnalytic.save_search(params[:query], session[:user_id], articles.length)
     end
