@@ -63,6 +63,7 @@ group :test do
   gem 'rspec-rails'
   gem 'factory_bot_rails'
   gem 'database_cleaner-active_record'
+  gem 'rails-controller-testing'
 end
 
 group :development do
