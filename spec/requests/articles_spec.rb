@@ -1,11 +1,11 @@
 require 'rails_helper'
 
-RSpec.describe "Articles", type: :request do
-  describe "GET /" do
+RSpec.describe 'Articles', type: :request do
+  describe 'GET /' do
     before :each do
       get root_path
     end
-    it "responds with status 200 " do
+    it 'responds with status 200 ' do
       expect(response).to have_http_status(200)
     end
 
@@ -18,10 +18,10 @@ RSpec.describe "Articles", type: :request do
     end
   end
 
-  describe "GET /articles/:id" do
+  describe 'GET /articles/:id' do
     before :each do
       @article = create(:article)
-      get '/articles/' + @article.id.to_s
+      get "/articles/#{@article.id}"
     end
 
     it 'responds with status 200' do

@@ -23,5 +23,4 @@ RSpec.describe Analytic, type: :model do
     @analytic.session_id = nil
     expect(@analytic).to_not be_valid
   end
-
 end

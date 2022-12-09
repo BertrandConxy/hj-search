@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.feature "SavingSearchQuerries", type: :feature do
+RSpec.feature 'SavingSearchQuerries', type: :feature do
   before :each do
     visit root_path
   end
