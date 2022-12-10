@@ -1,11 +1,8 @@
 require "active_support/core_ext/integer/time"
 
+Rails.application.routes.default_url_options[:host] = "hj-search-production.up.railway.app"
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
-  config.hosts << "hj-search-production.up.railway.app"
-  Rails.application.routes.default_url_options[:host] = "hj-search-production.up.railway.app"
-  config.hosts << "https://hj-search-production.up.railway.app/"  
-  Rails.application.hosts << "https://hj-search-production.up.railway.app/"
   # Code is not reloaded between requests.
   config.cache_classes = true
   # Eager load code on boot. This eager loads most of Rails and
