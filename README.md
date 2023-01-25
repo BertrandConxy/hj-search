@@ -32,7 +32,7 @@
 
 # 📖 [Hj search] <a name="about-project"></a>
 
-HJ search is a full-stack web app. A search engine which is a real time search box where users search articles and then the search engine records and displays analytics about what users searched the most, number of times they searched a particular query and other information.
+HJ search is a full-stack web app. A search engine which is a real time search box where users search articles and then the search engine records and displays analytics about what users searched the most, number of times they searched a particular query and other information. In addition, users can read the article that they are searching for. This software can be integral part of any platform as it mimics a knowledge-base software. A stop center for anyone looking for solutions either a customer or an internal organisation employee.
 
 ### Quick Preview
 
@@ -78,6 +78,7 @@ HJ search is a full-stack web app. A search engine which is a real time search b
 
 - **Real time article search**
 - **search analytics**
+- **Article show**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,7 +86,7 @@ HJ search is a full-stack web app. A search engine which is a real time search b
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Not yet
+[Live Demo Link](https://hj-search-production.up.railway.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
