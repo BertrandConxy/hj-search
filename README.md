@@ -86,7 +86,8 @@ HJ search is a full-stack web app. A search engine which is a real time search b
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Live Demo Link](https://hj-search-production.up.railway.app/)
+<!-- [Live Demo Link](https://hj-search-production.up.railway.app/) -->
+[Not yet deployed]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
